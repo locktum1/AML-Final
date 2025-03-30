@@ -1,0 +1,28 @@
+<?php
+
+namespace Database\Factories;
+
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+/**
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Media>
+ */
+class MediaFactory extends Factory
+{
+    /**
+     * Define the model's default state.
+     *
+     * @return array<string, mixed>
+     */
+    public function definition(): array
+    {
+        return [
+            'title' => 'HARRY POTTER AND THE CURSED CHILD',
+            'author' => 'J.K. ROWLING',
+            'description' => 'DESCRIPTION',
+            'image' => 'harry_potter_cursed_child.jpg',
+            'publish_date' => '2024-11-01',
+            'media_type' => ''
+        ];
+    }
+}

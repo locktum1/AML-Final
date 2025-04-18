@@ -1,5 +1,0 @@
-<?phphp>
-
-if (!function)
-
-</php>

@@ -14,12 +14,15 @@
         "paypal/paypal-checkout-sdk": "^1.0",
         "paypal/paypalhttp": "^1.0",
         "paypal/rest-api-sdk-php": "^1.6",
+        "pragmarx/google2fa": "^8.0",
+        "simplesoftwareio/simple-qrcode": "^4.2",
         "socialiteproviders/paypal": "^4.3",
-        "stripe/stripe-php": "^16.3"
+        "stripe/stripe-php": "^16.3",
+        "twilio/sdk": "^8.4"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
-        "laravel/breeze": "^2.2",
+        "laravel/breeze": "^2.3",
         "laravel/pail": "^1.1",
         "laravel/pint": "^1.13",
         "laravel/sail": "^1.26",
